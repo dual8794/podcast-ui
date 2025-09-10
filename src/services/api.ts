@@ -1,5 +1,6 @@
 import axios, { AxiosInstance } from 'axios';
 
+
 const createAPI = (
     baseURL: string,
   ): AxiosInstance => {
@@ -14,6 +15,6 @@ const createAPI = (
   };
 
 
-const API = createAPI("http://localhost:3000");
+const API = createAPI(process.env.API_URL);
 
 export { API };
