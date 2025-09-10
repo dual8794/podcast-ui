@@ -15,6 +15,6 @@ const createAPI = (
   };
 
 
-const API = createAPI("https://thmanyah-backend-o96b:10000");
+const API = createAPI("http://thmanyah-backend-o96b:10000");
 
 export { API };
