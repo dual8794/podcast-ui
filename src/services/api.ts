@@ -15,6 +15,6 @@ const createAPI = (
   };
 
 
-const API = createAPI(process.env.NEXT_PUBLIC_API_URL as string);
+const API = createAPI(process.env.API_URL as string);
 
 export { API };
